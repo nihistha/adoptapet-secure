@@ -1,0 +1,154 @@
+.dashboard-body {
+  background-color: #AC8968;
+  overflow: hidden;
+}
+
+/* Colors */
+/* Midnight green */
+/* 162A2C */
+/* Storm cloud */
+/* #686867 */
+
+header {
+  padding: 10px 0;
+  background-color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.hero-section {
+  background-image: url('../../assets/homepage.png'); /* Adjust this path */
+  background-size:cover;
+  background-position: center;
+  padding: 100px 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+
+/* Custom styles for the search bar */
+.custom-input-group {
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  background-color: #d8d2c2
+  ;
+  align-items: center;
+  max-width: 600px; /* Adjust this value to make the search bar smaller */
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 40px; /* Center the search bar */
+}
+
+.custom-search-input {
+  border: none;
+  padding: 0.5rem 1rem; /* Adjust padding to make it smaller */
+  font-size: 1rem;
+  background-color: #d8d2c2;
+  flex-grow: 1;
+  outline: none;
+}
+.custom-search-input:focus,
+.custom-search-input:active {
+  background-color: #d8d2c2; /* Keep the background color on focus and active states */
+  border-color:#d8d2c2 ;
+}
+
+.custom-search-button {
+  background-color: transparent; /* Remove the blue background */
+  color: #000000; /* Use a color that matches the overall design */
+  border: none;
+  padding: 0.5rem 1rem; /* Adjust padding to make it smaller */
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.custom-search-button:hover {
+  color: #000000; /* Change text color on hover */
+  
+}
+
+/* Additional custom styles */
+.text-center {
+  text-align: center;
+}
+
+.btn-container {
+  margin-top: 10px;
+}
+
+.btn {
+  margin: 5px;
+  border-radius: 20px;
+}
+
+/* Custom styles for square buttons */
+.custom-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px; /* Width for square buttons */
+  height: 110px; /* Height for square buttons */
+  font-size: 1rem;
+  text-align: center;
+  padding: 0;
+  background-color: #5E6C5Bbc;
+  margin : 30px;
+}
+.custom-btn:hover{
+  background-color: #5E6C5Bbc;
+}
+
+.custom-btn i {
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 1.5rem; /* Adjust icon size */
+}
+
+/* Custom styles for the cards */
+.pets-section .custom-card {
+  width: 16rem; /* Adjust the width as needed */
+  height: 20rem; /* Adjust the height as needed */
+  overflow: hidden; /* Ensure content stays within the card */
+  background-color: #865d365e !important; /* Set background color with !important */
+  color: #333 !important; /* Set text color with !important */
+  border: 1px solid #93785b97; /* Add a border */
+  border-radius: 18px; /* Add rounded corners */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add transition effects */
+}
+.custom-card:hover {
+  background-color: #e9ecef; /* Change background color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.custom-card-img {
+  height: 10rem; /* Adjust the height of the image as needed */
+  object-fit: cover; /* Ensure the image covers the area */
+}
+
+/* Custom styles for alert */
+.custom-alert {
+  background-color: #8b672d; /* Custom background color for the alert */
+  color: #333; /* Custom text color for the alert */
+  padding: 1rem; /* Adjust padding as needed */
+  border-radius: 0.25rem; /* Rounded corners for the alert */
+}
+
+/* Custom styles for button */
+.btn-custom {
+  background-color: #452103bc; /* Custom background color for the button */
+  color: #fff; /* Custom text color for the button */
+  border: none; /* Remove border */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  font-size: 1rem; /* Adjust font size */
+}
+
+.btn-custom:hover {
+  background-color: #5E6C5Bbc; /* Custom background color on hover */
+}
+.Heading-text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Change to your preferred font */
+  font-weight: bold;
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: #3E362E;
+  text-align: center; /* Change the color if desired */
+}

@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\college\\Web\\Adoptapet_web\\adoptapetbackend\\logger\\logs\\.0e0df063edf0fa2ccc89f32051ea7744a5139ff9-audit.json",
+    "files": [
+        {
+            "date": 1738165689027,
+            "name": "D:\\college\\Web\\Adoptapet_web\\adoptapetbackend\\logger\\logs\\error-2025-01-29.log",
+            "hash": "65870a76fdb28746734411f2cef917e6eb0c5f458b1bd84c759174c4c4d51105"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,55 @@
+.custom-card {
+    width: 18rem; /* Adjust the width as needed */
+    height: 20rem; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure content stays within the card */
+    background-color: #865d365e !important; /* Set background color with !important */
+    color: #333 !important; /* Set text color with !important */
+    border: 1px solid #865d365e; /* Add a border */
+    border-radius: 8px; /* Add rounded corners */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition effects */
+  }
+  .allpets-body{
+    background-color: #AC8968;
+    margin-top: 50px;
+    padding: 2%;
+  }
+  .heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+  }
+  .boton{
+    width: 50px;
+    background-color: beige;
+  }
+
+  .join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .join-item {
+    font-size: 12px; /* Smaller text */
+    padding: 5px 10px; /* Smaller buttons */
+    margin: 0; /* Remove default margin */
+    border-radius: 4px; /* Optional: add some rounding to the corners */
+  }
+  
+  .join-item.btn {
+     /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+     /* Remove default border */
+     width: 60px;
+  }
+  
+  .join-item.btn:hover {
+    background-color: #cfc19e; /* Button hover background color */
+  }
+  
+  /* Remove gap between buttons */
+  .join-item:not(:last-child) {
+    border-right: 1px solid #fff; /* Add a small border to create a separating line */
+  }
+  

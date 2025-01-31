@@ -1,0 +1,94 @@
+.wrapper.register {
+    position: relative;
+    width: 420px;
+    height: 550px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .1);
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+    color: azure;
+    padding-top: -50px;
+  }
+  
+  .register-body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../../assets/loginbg.png');
+    background-size: cover;
+  }
+  
+  .wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+  }
+  
+  form h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  form .input-box {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 20px 0;
+  }
+  
+  .input-box input {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #5C4033;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #5C4033;
+  }
+  
+  .input-box input::placeholder {
+    color: #5C4033;
+    padding: 20px;
+  }
+  
+  .input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    translate: 0 -50%;
+    font-size: 16px;
+  }
+  
+  form button {
+    width: 100%;
+    height: 45px;
+    background: #5C4033;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  form .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  
+  .register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .register-link p a:hover {
+    text-decoration: underline;
+  }

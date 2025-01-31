@@ -1,0 +1,6 @@
+[2025-01-27T04:14:14.940Z] INFO: Login attempt for email: puja@gmail.com
+[2025-01-27T04:14:15.067Z] INFO: User puja@gmail.com logged in successfully
+[2025-01-29T15:38:31.402Z] INFO: Login attempt for email: nihira@gmail.com
+[2025-01-29T15:38:31.510Z] WARN: Invalid password attempt for user: nihira@gmail.com
+[2025-01-29T15:39:34.808Z] INFO: Login attempt for email: shrestha@gmail.com
+[2025-01-29T15:39:34.880Z] INFO: User shrestha@gmail.com logged in successfully
