@@ -30,6 +30,8 @@ import DonationForm from './pages/donation/donation_page';
 import VerifyOtpAndResetPassword from './pages/login/verfifyotp';
 import UpdateApplication from './pages/application/UpdateApplication';
 import ChangePassword from './pages/changepassword/ChangePassword';
+import ForbiddenPage from './pages/unauthorized/unauthorized';
+import AdminRoute from './components/adminroutes';
 
 function App() {
   return (
@@ -40,7 +42,7 @@ function App() {
         <Route path = "/" element = {<Login/>}/>
         <Route path="/forgot-password" element={<ForgotPassword/>} />
         <Route path ='/verify-otp' element = {<VerifyOtpAndResetPassword/>}/>
-
+        <Route path ='/unauthorized' element = {<ForbiddenPage/>} />
         {/* {User Routes} */}
         <Route path ="/dashboard" element = {<Dashboard/>} />
         <Route path = '/pet_details/:id' element ={<PetDetails/>}/>
@@ -54,13 +56,15 @@ function App() {
         <Route path = '/update_application/:id' element={<UpdateApplication/>}/>
         <Route path = '/change-password' element = {<ChangePassword/>}/>
         {/* {Admin Routes} */}
-        <Route path = "/admin/addlisting" element = {<AdminAddListings/>}/>
-        <Route path = "/admin/dashboard" element = {<AdminDashboard/>}/>
-        <Route path = "/admin/updatelisting/:id" element = {<UpdateListing/>}/>
-        <Route path = '/admin/home' element = {<AdminHomepage/>}/>
-        <Route path = '/admin/application' element={<AdminApplication/>}/>
-        <Route path = '/admin/applicant-detail/:id' element ={<ApplicationDetails/>}/>
-        <Route path ='/admin/schedules' element={<MeetList/>} />
+        <Route path="/admin" element={<AdminRoute />}>
+            <Route path = "/admin/addlisting" element = {<AdminAddListings/>}/>
+            <Route path = "/admin/dashboard" element = {<AdminDashboard/>}/>
+            <Route path = "/admin/updatelisting/:id" element = {<UpdateListing/>}/>
+            <Route path = '/admin/home' element = {<AdminHomepage/>}/>
+            <Route path = '/admin/application' element={<AdminApplication/>}/>
+            <Route path = '/admin/applicant-detail/:id' element ={<ApplicationDetails/>}/>
+            <Route path ='/admin/schedules' element={<MeetList/>} />
+        </Route>
       </Routes>
     </Router>
   );

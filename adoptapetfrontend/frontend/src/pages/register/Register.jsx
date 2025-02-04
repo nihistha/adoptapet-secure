@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import './register.css'
 import { MdEmail } from "react-icons/md";
-import { FaUser,FaPhone,FaLock } from "react-icons/fa";
+import { FaUser,FaPhone,FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
 import { registerUserApi } from '../../apis/Api';
 import { toast } from 'react-toastify'
 
@@ -12,11 +12,12 @@ const Register = () => {
   const[email,setEmail] = useState('')
   const[password,setPassword] = useState('')
   const[confirmPassword,setConfirmPassword] = useState('')
+  const [showPassword, setShowPassword] = useState(false);
 
   const[fullnameerror,setFullnameError] = useState('')
   const[phonenumbererror,setPhonenumberError] = useState('')
   const[emailerror,setEmailError] = useState('')
-  const[passworderror,setPasswordError] = useState('')
+  const[passwordError,setPasswordError] = useState('')
   const[confirmpassworderror,setConfirmPasswordError] = useState('')
   const [strength, setStrength] = useState('');
   const checkPasswordStrength = (password) => {
@@ -117,6 +118,7 @@ const Register = () => {
       });
     }
 
+
   return (
     <>
     <div className='register-body'>
@@ -148,18 +150,36 @@ const Register = () => {
                       emailerror && <small>{emailerror}</small>
                     }
                 </div>
-                <div className = "input-box">
-                    <input onChange={handlePassword} 
-                    type= 'text' // Toggle input type
-                    placeholder='Password' required />
-                    <FaLock className='icon' />
-                    {
-                      passworderror && <small>{passworderror}</small>
-                    }
-                    <p style={{ color: strength === 'Strong' ? 'green' : strength === 'Medium' ? 'orange' : 'red' }}>
-                      Strength: {strength || 'Enter a password'}
-                    </p>
-                </div>
+                <div className="input-box">
+      <input 
+        onChange={handlePassword}
+        type={showPassword ? 'text' : 'password'}
+        placeholder='Password'
+        required 
+      />
+      <div
+        onClick={() => setShowPassword(!showPassword)}
+        style={{
+          position: 'absolute',
+          right: '20px',
+          top: '50%',
+          transform: 'translateY(-50%)',
+          cursor: 'pointer',
+          fontSize: '16px',
+          color: '#5C4033'
+        }}
+      >
+        {showPassword ? <FaEyeSlash /> : <FaEye />}
+      </div>
+      {passwordError && <small>{passwordError}</small>}
+      <p style={{ 
+        color: strength === 'Strong' ? 'green' : 
+               strength === 'Medium' ? 'orange' : 
+               'red' 
+      }}>
+        Strength: {strength || 'Enter a password'}
+      </p>
+    </div>
                 <div className = "input-box">
                     <input onChange={handleConfPassword} type = "password"
                     placeholder='Confirm Passwprd' required />
@@ -171,7 +191,7 @@ const Register = () => {
                 <button onClick ={handleButton} type = "submit">Sign Up</button>
                 <div className = "register-link">
                     <p>Already have an account? 
-                        <a href = "../login">
+                        <a href = "/">
                             Login
                         </a>
                         </p>

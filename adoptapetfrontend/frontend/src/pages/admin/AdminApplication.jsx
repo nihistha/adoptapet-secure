@@ -70,7 +70,7 @@ const AdminApplication = () => {
             <div key={application._id} className="bg-white rounded-lg shadow-md overflow-hidden border border-brown-200">
               <div className="md:flex">
                 <div className="md:flex-shrink-0">
-                  <img className="h-full w-24 object-cover md:w-48" src={`http://localhost:5500/listings/${application.petImage}`} alt={application.petName} />
+                  <img className="h-full w-24 object-cover md:w-48" src={`https://localhost:5500/listings/${application.petImage}`} alt={application.petName} />
                 </div>
                 <div className="p-8">
                   <div className="uppercase tracking-wide text-sm text-brown-600 font-semibold">{application.petName}</div>

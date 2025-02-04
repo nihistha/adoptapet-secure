@@ -14,6 +14,16 @@
             "date": 1738224454532,
             "name": "D:\\college\\Web\\Adoptapet_web\\adoptapetbackend\\logger\\logs\\security-2025-01-30.log",
             "hash": "acbbc858eca5b92b92428e6877cf8c2e713b77b2914773e0ba24e9769fe53369"
+        },
+        {
+            "date": 1738322445756,
+            "name": "D:\\college\\Web\\Adoptapet_web\\adoptapetbackend\\logger\\logs\\security-2025-01-31.log",
+            "hash": "1db9f3bd7a1fc4d6ec487f537e89545656a98791b9f88b642fd65f72424c9a4c"
+        },
+        {
+            "date": 1738438432355,
+            "name": "D:\\college\\Web\\Adoptapet_web\\adoptapetbackend\\logger\\logs\\security-2025-02-02.log",
+            "hash": "5e6e6524ba57d1f57e12ce7fa6791a7ce08f34bb0bf1f2b21b178a07fddd3be8"
         }
     ],
     "hashType": "sha256"

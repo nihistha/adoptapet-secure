@@ -71,7 +71,7 @@ const PetDetails = () => {
             <div className="md:w-1/2 p-4">
               <img 
                 className="w-full h-64 object-cover rounded-lg" 
-                src={`http://localhost:5500/listings/${pet.petImage}`} 
+                src={`https://localhost:5500/listings/${pet.petImage}`} 
                 alt={pet.petName} 
               />
             </div>

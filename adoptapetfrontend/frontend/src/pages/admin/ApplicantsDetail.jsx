@@ -88,7 +88,7 @@ const ApplicationDetails = () => {
             <div className="md:w-1/3 p-8 bg-brown-100">
               <h2 className="text-2xl font-bold mb-6 text-brown-800">Pet Details</h2>
               <div className="flex justify-center mb-6">
-                <img src={`http://localhost:5500/listings/${application.petImage}`} alt="Pet photo" className="h-48 w-auto rounded-lg shadow-md" />
+                <img src={`https://localhost:5500/listings/${application.petImage}`} alt="Pet photo" className="h-48 w-auto rounded-lg shadow-md" />
               </div>
               {/* Add more pet details here if available */}
             </div>

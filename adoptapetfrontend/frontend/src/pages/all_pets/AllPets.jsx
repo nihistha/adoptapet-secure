@@ -41,7 +41,7 @@ const AllPets = () => {
     {pets.map(pet => (
               <div key={pet._id} className="col mb-4">
                 <div className="card h-100 custom-card">
-                  <img src={`http://localhost:5500/listings/${pet.petImage}`} className="card-img-top custom-card-img" alt={pet.petName} />
+                  <img src={`https://localhost:5500/listings/${pet.petImage}`} className="card-img-top custom-card-img" alt={pet.petName} />
                   <div className="card-body">
                     <h5 className="card-title">{pet.petName}</h5>
                     <p className="card-text">{pet.petType}</p>

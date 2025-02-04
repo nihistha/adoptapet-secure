@@ -50,6 +50,7 @@ app.use(fileUpload());
 
 app.use(express.static('./public'))
 
+
 app.use((req, res, next) => {
     if (req.session.user && req.session.ip && req.session.ip !== req.ip) {
         logger.security(`Session hijacking attempt! Session ID: ${req.session.id} changed IP from ${req.session.ip} to ${req.ip}`);

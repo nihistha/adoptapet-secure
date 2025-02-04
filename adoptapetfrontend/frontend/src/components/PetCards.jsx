@@ -37,7 +37,7 @@ const PetCard = ({ pet, onDelete }) => {
     // </div>
         <body class="flex items-center justify-center min-h-screen bg-gray-100">
         <div class="bg-white rounded-lg w-68 h-96 shadow-md p-6 max-w-sm">
-            <img src={`http://localhost:5500/listings/${pet.petImage}`} alt="Card Image" class="w-full h-60 rounded-t-lg"/>
+            <img src={`https://localhost:5500/listings/${pet.petImage}`} alt="Card Image" class="w-full h-60 rounded-t-lg"/>
             <div class="p-4">
                 <h2 class="text-xl font-semibold text-center mb-2">{pet.petName}</h2>
                 <div class="flex items-center justify-between">
