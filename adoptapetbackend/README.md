@@ -38,5 +38,3 @@ JWS-based Authentication
 Technologies
 
 Node.js, Express.js, Mongoose, MongoDB
-
-A
