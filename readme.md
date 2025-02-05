@@ -2,6 +2,7 @@
 
 ## Security Added:
 
-Rate Limiter
-Password strength
-XSS prevention
+Rate Limiter,
+Password strength,
+XSS prevention,
+Sql injection prevention,
