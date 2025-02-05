@@ -39,4 +39,4 @@ Technologies
 
 Node.js, Express.js, Mongoose, MongoDB
 
-Authe
+Auth
