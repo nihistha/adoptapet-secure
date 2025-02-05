@@ -22,7 +22,5 @@ Forgot password: Otp when forgot password
 Technologies
 React.js,Tailwind, css, 
 
-http://localhost:3000
-
 Author
 Nihira Shrestha
