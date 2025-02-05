@@ -18,7 +18,3 @@ Schedule meet: Schedule meet for pick up
 Search and filter: Search the pet listings 
 Donate: Donate to the organization
 Forgot password: Otp when forgot password
-
-Technologies
-React.js,Tailwind, css, 
-
