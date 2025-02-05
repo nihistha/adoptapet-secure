@@ -24,8 +24,6 @@ React.js,Tailwind, css,
 
 API Integration
 
-Restful API
-
 
 
 Environment Variables
