@@ -41,4 +41,4 @@ Node.js, Express.js, Mongoose, MongoDB
 
 Auther
 
-Nihira Shresth
+Nihira Shrest
