@@ -23,4 +23,3 @@ Technologies
 React.js,Tailwind, css, 
 
 Author
-Nihira Shrestha
