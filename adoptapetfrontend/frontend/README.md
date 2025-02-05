@@ -22,8 +22,6 @@ Forgot password: Otp when forgot password
 Technologies
 React.js,Tailwind, css, 
 
-
-Environment Variables
 http://localhost:3000
 
 Author
