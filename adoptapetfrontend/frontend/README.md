@@ -2,8 +2,6 @@ Adoptapet - Frontend
 
 A React bases frontend for pet adopteion.
 
-Features
-
 Admin Role
 
 Dashboard : Overview of donations
