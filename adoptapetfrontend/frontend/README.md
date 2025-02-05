@@ -26,10 +26,7 @@ API Integration
 
 Restful API
 
-Future Works
 
-Chat support
-Add to favorites
 
 Environment Variables
 http://localhost:3000
